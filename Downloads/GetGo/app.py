@@ -11,9 +11,9 @@ bcrypt = Bcrypt(app)
 # Function to get database connection
 def get_db_connection(create_db=False):
     conn = mysql.connector.connect(
-        host="mynewdatabase112233.c180wy622p1m.us-east-1.rds.amazonaws.com",
+        host="aws-project.c1e24qqowhv5.us-east-1.rds.amazonaws.com",
         user="admin",
-        password="nuel1404"
+        password="Hello12345."
     )
     cursor = conn.cursor()
     
